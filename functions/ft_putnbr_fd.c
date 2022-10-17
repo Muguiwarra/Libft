@@ -19,7 +19,7 @@ void	ft_putnbr_fd(int n, int fd)
 	else if (n < 0)
 	{
 		n = 0 - n;
-		ft_putchar_fd("-", fd);
+		ft_putchar_fd('-', fd);
 		ft_putnbr_fd(n, fd);
 	}
 	else if (n > 9)
